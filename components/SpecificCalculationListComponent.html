@@ -1,0 +1,1007 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>carbon-calculator documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">carbon-calculator documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  SpecificCalculationListComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/specific-calculation-list/specific-calculation-list.component.ts</code>
+</p>
+
+
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>The SpecificCalculationListComponent is used to display a list of emissions calculations</p>
+
+    </p>
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-specific-calculation-list</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./specific-calculation-list.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./specific-calculation-list.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_calculationID" >_calculationID</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_factorManager" >_factorManager</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_module" >_module</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#getFactorModule" >getFactorModule</a>
+                            </li>
+                            <li>
+                                <a href="#getTypeModule" >getTypeModule</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+                    <tr>
+                        <td class="col-md-4">
+                            <h6><b>Accessors</b></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <ul class="index-list">
+                                <li>
+                                    <a href="#isFactorModule" >isFactorModule</a>
+                                </li>
+                                <li>
+                                    <a href="#module" >module</a>
+                                </li>
+                                <li>
+                                    <a href="#factorManager" >factorManager</a>
+                                </li>
+                                <li>
+                                    <a href="#calculationId" >calculationId</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(route: <a href="https://angular.io/api/router/ActivatedRoute" target="_blank">ActivatedRoute</a>, navigation: <a href="../injectables/NavigationService.html" target="_self">NavigationService</a>, translateService: TranslateService, calculationService: <a href="../injectables/CalculationService.html" target="_self">CalculationService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/specific-calculation-list/specific-calculation-list.component.ts:27</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Constructs a new SpecificCalculationListComponent.</p>
+</div>
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                                    <td>Description</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>route</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/ActivatedRoute" target="_blank" >ActivatedRoute</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <p>The ActivatedRoute for the current route.</p>
+
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>navigation</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/NavigationService.html" target="_self" >NavigationService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <p>The NavigationService used to set the page title.</p>
+
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>translateService</td>
+                                                  
+                                                        <td>
+                                                                    <code>TranslateService</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <p>The TranslateService used to translate the page title.</p>
+
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>calculationService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CalculationService.html" target="_self" >CalculationService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <p>The CalculationService used to retrieve the current calculation.</p>
+
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getFactorModule"></a>
+                    <span class="name">
+                        <span ><b>getFactorModule</b></span>
+                        <a href="#getFactorModule"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getFactorModule()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="102"
+                            class="link-to-prism">src/app/specific-calculation-list/specific-calculation-list.component.ts:102</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Returns the current EmissionModule, cast as a FactorEmissionModule.</p>
+</div>
+
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/EmissionModule.html" target="_self" >FactorEmissionModule</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>The current EmissionModule, cast as a FactorEmissionModule.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getTypeModule"></a>
+                    <span class="name">
+                        <span ><b>getTypeModule</b></span>
+                        <a href="#getTypeModule"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getTypeModule()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="109"
+                            class="link-to-prism">src/app/specific-calculation-list/specific-calculation-list.component.ts:109</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Returns the current EmissionModule instance as an AdvancedEmissionModule, if it is one. Otherwise returns undefined.</p>
+</div>
+
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/EmissionModule.html" target="_self" >AdvancedEmissionModule | undefined</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>the current EmissionModule instance as an AdvancedEmissionModule, if it is one. Otherwise returns undefined.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="42"
+                            class="link-to-prism">src/app/specific-calculation-list/specific-calculation-list.component.ts:42</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Initializes the component by retrieving the current calculation and module, and setting the page title.
+It also sets up any other necessary state or variables that the component needs when it starts.</p>
+</div>
+
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>void</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_calculationID"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                        <span ><b>_calculationID</b></span>
+                        <a href="#_calculationID"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/specific-calculation-list/specific-calculation-list.component.ts:27</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>ido of calculation</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_factorManager"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                        <span ><b>_factorManager</b></span>
+                        <a href="#_factorManager"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../classes/FactorManager.html" target="_self" >FactorManager</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/specific-calculation-list/specific-calculation-list.component.ts:25</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>FactorManager</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_module"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                        <span ><b>_module</b></span>
+                        <a href="#_module"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/EmissionModule.html" target="_self" >EmissionModule</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/specific-calculation-list/specific-calculation-list.component.ts:23</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>EmmissionModule</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="accessors">
+        Accessors
+    </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="isFactorModule"></a>
+                        <span class="name"><b>isFactorModule</b><a href="#isFactorModule"><span class="icon ion-ios-link"></span></a></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>get</b><code>isFactorModule()</code></span>
+                    </td>
+                </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="62" class="link-to-prism">src/app/specific-calculation-list/specific-calculation-list.component.ts:62</a></div>
+                                </td>
+                            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Returns true if the current module is a FactorEmissionModule, false otherwise.</p>
+</div>
+
+                                <div class="io-description">
+                                    <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                                </div>
+                        </td>
+                    </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="module"></a>
+                        <span class="name"><b>module</b><a href="#module"><span class="icon ion-ios-link"></span></a></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>get</b><code>module()</code></span>
+                    </td>
+                </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="70" class="link-to-prism">src/app/specific-calculation-list/specific-calculation-list.component.ts:70</a></div>
+                                </td>
+                            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Returns whether the current EmissionModule is a FactorEmissionModule.</p>
+</div>
+
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>        <code><a href="../interfaces/EmissionModule.html" target="_self" >EmissionModule</a></code>
+
+                                </div>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>set</b><code>module(module: <a href="../interfaces/EmissionModule.html" target="_self">EmissionModule</a>)</code></span>
+                    </td>
+                </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="78" class="link-to-prism">src/app/specific-calculation-list/specific-calculation-list.component.ts:78</a></div>
+                                </td>
+                            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Sets the current EmissionModule.</p>
+</div>
+
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                        <td>Type</td>
+                                                    <td>Optional</td>
+                                                        <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                            <td>module</td>
+                                                    
+                                                            <td>
+                                                                            <code><a href="../interfaces/EmissionModule.html" target="_self" >EmissionModule</a></code>
+                                                            </td>
+                                                    
+                                                        <td>
+                                                                No
+                                                        </td>
+                                                        
+                                                            <td>
+                                                                    <p>The new EmissionModule to set.</p>
+
+                                                            </td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                                </div>
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="factorManager"></a>
+                        <span class="name"><b>factorManager</b><a href="#factorManager"><span class="icon ion-ios-link"></span></a></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>get</b><code>factorManager()</code></span>
+                    </td>
+                </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="86" class="link-to-prism">src/app/specific-calculation-list/specific-calculation-list.component.ts:86</a></div>
+                                </td>
+                            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Returns the FactorManager associated with the current calculation.</p>
+</div>
+
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>        <code><a href="../classes/FactorManager.html" target="_self" >FactorManager</a></code>
+
+                                </div>
+                        </td>
+                    </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="calculationId"></a>
+                        <span class="name"><b>calculationId</b><a href="#calculationId"><span class="icon ion-ios-link"></span></a></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>get</b><code>calculationId()</code></span>
+                    </td>
+                </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="94" class="link-to-prism">src/app/specific-calculation-list/specific-calculation-list.component.ts:94</a></div>
+                                </td>
+                            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Returns the ID of the current calculation.</p>
+</div>
+
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                                </div>
+                        </td>
+                    </tr>
+
+            </tbody>
+        </table>
+</section>
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { ActivatedRoute } from &#x27;@angular/router&#x27;;
+import { TranslateService } from &#x27;@ngx-translate/core&#x27;;
+import { Calculation } from &#x27;../emissionmodule/calculation&#x27;;
+import { EmissionModule } from &#x27;../emissionmodule/emission-module&#x27;;
+import { FactorManager } from &#x27;../emissionmodule/factor-manager&#x27;;
+import { AdvancedEmissionModule } from &#x27;../emissionmodule/modules/advanced-module&#x27;;
+import { FactorEmissionModule } from &#x27;../emissionmodule/modules/factor-module&#x27;;
+import { AdvancedSerializer } from &#x27;../emissionmodule/serializer/advanced-serializer&#x27;;
+import { NavigationService } from &#x27;../shared/navigation.service&#x27;;
+import { CalculationService } from &#x27;../_services/calculation.service&#x27;;
+/**
+ * The SpecificCalculationListComponent is used to display a list of emissions calculations
+ */
+@Component({
+  selector: &#x27;app-specific-calculation-list&#x27;,
+  templateUrl: &#x27;./specific-calculation-list.component.html&#x27;,
+  styleUrls: [&#x27;./specific-calculation-list.component.scss&#x27;]
+})
+
+export class SpecificCalculationListComponent implements OnInit {
+  /** EmmissionModule */
+  private _module!: EmissionModule;
+  /** FactorManager */
+  private _factorManager!: FactorManager;
+  /** ido of calculation */
+  private _calculationID!:string;
+  /**
+   * Constructs a new SpecificCalculationListComponent.
+   *
+   * @param route The ActivatedRoute for the current route.
+   * @param navigation The NavigationService used to set the page title.
+   * @param translateService The TranslateService used to translate the page title.
+   * @param calculationService The CalculationService used to retrieve the current calculation.
+   */
+  constructor(private route:ActivatedRoute,private navigation:NavigationService,private translateService: TranslateService, private calculationService:CalculationService){}
+  /**
+   * Initializes the component by retrieving the current calculation and module, and setting the page title.
+   * It also sets up any other necessary state or variables that the component needs when it starts.
+   * @returns void
+   */
+  ngOnInit(): void {
+    this.route.params.subscribe(params&#x3D;&gt;{
+      // Translate and set the page title based on the route parameter
+      this.translateService.get(&quot;modules.&quot; + params?.sptitle).subscribe(translation &#x3D;&gt; {
+        this.navigation.changeMessage(translation);
+      });
+      // Get the ID of the current calculation from the route parameter
+      this._calculationID &#x3D; params.id;
+      // Retrieve the Calculation object from the CalculationService
+      const calculation &#x3D; this.calculationService.getById(params.id);
+      if(calculation &#x3D;&#x3D; null) return;
+      // Set the FactorManager and EmissionModule associated with the current calculation
+      this._factorManager &#x3D; calculation.factorManager;
+      let module &#x3D; calculation.modules.find(module &#x3D;&gt; module.id &#x3D;&#x3D; params.sptitle);
+      if(module) this.module &#x3D; module;
+    })
+  }
+  /**
+   * Returns true if the current module is a FactorEmissionModule, false otherwise.
+   */
+  get isFactorModule(): boolean{
+    return this._module instanceof FactorEmissionModule;
+  }
+  /**
+   * Returns whether the current EmissionModule is a FactorEmissionModule.
+   *
+   * @returns Whether the current EmissionModule is a FactorEmissionModule.
+   */
+  get module() : EmissionModule {
+    return this._module;
+  }
+   /**
+   * Sets the current EmissionModule.
+   *
+   * @param module The new EmissionModule to set.
+   */
+  set module(module:EmissionModule){
+    this._module &#x3D; module;
+  }
+   /**
+   * Returns the FactorManager associated with the current calculation.
+   *
+   * @returns The FactorManager associated with the current calculation.
+   */
+  get factorManager(): FactorManager {
+    return this._factorManager;
+  }
+  /**
+   * Returns the ID of the current calculation.
+   *
+   * @returns The ID of the current calculation.
+   */
+  get calculationId(): string {
+    return this._calculationID;
+  }
+  /**
+   * Returns the current EmissionModule, cast as a FactorEmissionModule.
+   *
+   * @returns The current EmissionModule, cast as a FactorEmissionModule.
+   */
+  getFactorModule() : FactorEmissionModule {
+    return this.module as FactorEmissionModule;
+  }
+  /**
+   * Returns the current EmissionModule instance as an AdvancedEmissionModule, if it is one. Otherwise returns undefined.
+   * @returns the current EmissionModule instance as an AdvancedEmissionModule, if it is one. Otherwise returns undefined.
+   */
+  getTypeModule(): AdvancedEmissionModule | undefined{
+    if(this.module instanceof AdvancedEmissionModule) return this.module as AdvancedEmissionModule;
+    return undefined;
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div style&#x3D;&quot;padding: 5px 30px;&quot;&gt;
+    &lt;!-- FactorModule --&gt;
+    &lt;app-factor-emission-module *ngIf&#x3D;&quot;isFactorModule&quot; [module]&#x3D;&quot;getFactorModule()&quot; [calculationID]&#x3D;&quot;calculationId&quot; [factorManager]&#x3D;&quot;factorManager&quot;&gt;&lt;/app-factor-emission-module&gt;
+
+    &lt;!-- Other Modules --&gt;
+    &lt;app-type-emission-module *ngIf&#x3D;&quot;!isFactorModule&quot; [module]&#x3D;&quot;getTypeModule()&quot; [calculationID]&#x3D;&quot;calculationId&quot; [factorManager]&#x3D;&quot;factorManager&quot;&gt;&lt;/app-type-emission-module&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./specific-calculation-list.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss"></code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div style="padding: 5px 30px;">    <!-- FactorModule -->    <app-factor-emission-module *ngIf="isFactorModule" [module]="getFactorModule()" [calculationID]="calculationId" [factorManager]="factorManager"></app-factor-emission-module>    <!-- Other Modules -->    <app-type-emission-module *ngIf="!isFactorModule" [module]="getTypeModule()" [calculationID]="calculationId" [factorManager]="factorManager"></app-type-emission-module></div></div>'
+    var COMPONENTS = [{'name': 'BarDiagramBothComponent', 'selector': 'app-bar-diagram-both'},{'name': 'BarDiagramCompareComponent', 'selector': 'app-bar-diagram-compare'},{'name': 'BarDiagramComponent', 'selector': 'app-bar-diagram'},{'name': 'CalculationCardComponent', 'selector': 'app-calculation-card'},{'name': 'CalculationDiagramCompareComponent', 'selector': 'app-calculation-diagram-compare'},{'name': 'CalculationDiagramComponent', 'selector': 'app-calculation-diagram'},{'name': 'CalculationListComponent', 'selector': 'app-calculation-list'},{'name': 'CalculationSelectCompareComponent', 'selector': 'app-calculation-select-compare'},{'name': 'CreateCalculationComponent', 'selector': 'app-create-calculation'},{'name': 'CreateModuleComponent', 'selector': 'app-create-module'},{'name': 'CreateTypeComponent', 'selector': 'app-create-type'},{'name': 'DiagramCompareDialogComponent', 'selector': 'app-diagram-dialog'},{'name': 'DiagramDialogComponent', 'selector': 'app-diagram-dialog'},{'name': 'EmissionItemComponent', 'selector': 'app-emission-item'},{'name': 'EmissionListComponent', 'selector': 'app-emission-list'},{'name': 'FactorEmissionModuleComponent', 'selector': 'app-factor-emission-module'},{'name': 'FileUploadComponent', 'selector': 'app-file-upload'},{'name': 'ImportFileDialogComponent', 'selector': 'app-import-file-dialog'},{'name': 'NavigationComponent', 'selector': 'app-navigation'},{'name': 'PieDiagramComponent', 'selector': 'app-pie-diagram'},{'name': 'SettingsComponent', 'selector': 'app-settings'},{'name': 'SpecificCalculationListComponent', 'selector': 'app-specific-calculation-list'},{'name': 'TreeDiagramComponent', 'selector': 'app-tree-diagram'},{'name': 'TypeEmissionModuleComponent', 'selector': 'app-type-emission-module'},{'name': 'TypeInputComponent', 'selector': 'app-type-input'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'SpecificCalculationListComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'SpecificCalculationListComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
